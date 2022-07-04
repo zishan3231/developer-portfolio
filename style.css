@@ -1,0 +1,92 @@
+* {
+    font-family: font-family: 'Smooch', cursive;
+    ;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+section {
+    display: flex;
+    margin bottom: 100px;
+
+
+
+}
+
+.bg-image {
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.home {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.home-img {
+    width: 70%;
+    padding: 80px;
+}
+
+section a {
+    font-size: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: calc(4s);
+}
+
+.home a:hover {
+    color: aqua;
+
+}
+
+.dream-big {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experience-box {
+    display: flex;
+    margin-bottom: 200px;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 60%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    border-right: 7px solid blue;
+    border-left: 7px solid tomato;
+}
+
+.box-2 {
+    width: 60%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+    border-right: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
+}
